@@ -1,4 +1,9 @@
-# import shelve
+# Simple / Dumb script that I wrote to help a friend in his research
+# He had to recover some figures from an output text file that was supposed to
+# contain columns, but with no separator, I made this very simple script that
+# got the figures from multiple files and stored them in an Excel file under
+# different sheets
+
 import openpyxl
 import os
 
